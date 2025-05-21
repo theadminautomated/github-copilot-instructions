@@ -1,0 +1,27 @@
+{
+  // Example: Advanced Copilot settings for power users and teams
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "text": "Decompose prompt into atomic objectives. For each, hypothesize optimal algorithms, data structures, and failure modes. Synthesize code by fusing canonical and novel patterns, annotating with [Intent], [Assumption], [Fallback]. Self-interrogate logic for ambiguity, bias, and edge cases. Spawn autonomous review agents to refactor, stress-test, and adversarially probe outputs. Recursively iterate until code is robust, minimal, and self-documenting. Terminate with [Audit] summarizing trade-offs, unhandled risks, and speculative improvements."
+    }
+  ],
+  "github.copilot.chat.testGeneration.instructions": [
+    {
+      "text": "Infer intent, invariants, and adversarial failures. For each, generate autonomous tests with [Rationale], [Mode], [Critique], [Escalation]. Self-critique and recursively spawn subtests for gaps or ambiguity. End with [Epilogue] auditing blind spots and proposing next-gen strategies. Never trust docs/types; always challenge assumptions and simulate hostile environments. Iterate until all uncertainty is surfaced."
+    }
+  ],
+  "github.copilot.chat.agent.autoFix": true,
+  "github.copilot.chat.agent.runTasks": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.terminalChatLocation": "terminal",
+  "github.copilot.chat.commitMessageGeneration.enableExperimental": true,
+  "github.copilot.chat.pullRequestDescriptionGeneration.enableExperimental": true,
+  "github.copilot.chat.reviewSelection.enableExperimental": true,
+  "github.copilot.chat.copilotDebugCommand.enabled": true,
+  "github.copilot.chat.continuousLearning.enable": true,
+  "github.copilot.chat.versionControlIntegration": "deep",
+  "github.copilot.chat.knowledgeBase.enable": true,
+  "github.copilot.chat.pairProgramming.enable": true,
+  "github.copilot.chat.advancedCodeReview.enable": true
+}

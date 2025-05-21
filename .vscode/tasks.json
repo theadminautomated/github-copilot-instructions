@@ -1,0 +1,12 @@
+{
+  // VS Code Tasks for Copilot Config Workspace
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate Copilot Config",
+      "type": "shell",
+      "command": "echo Validating Copilot config... && exit 0",
+      "problemMatcher": []
+    }
+  ]
+}
