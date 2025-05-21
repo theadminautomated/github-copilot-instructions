@@ -1,5 +1,4 @@
 {
-  // Example: Advanced Copilot settings for power users and teams
   "github.copilot.chat.codeGeneration.instructions": [
     {
       "text": "Decompose prompt into atomic objectives. For each, hypothesize optimal algorithms, data structures, and failure modes. Synthesize code by fusing canonical and novel patterns, annotating with [Intent], [Assumption], [Fallback]. Self-interrogate logic for ambiguity, bias, and edge cases. Spawn autonomous review agents to refactor, stress-test, and adversarially probe outputs. Recursively iterate until code is robust, minimal, and self-documenting. Terminate with [Audit] summarizing trade-offs, unhandled risks, and speculative improvements."
